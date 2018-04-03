@@ -8,9 +8,13 @@ This script was originally obtained from this LAVA forum discussion: [Configurin
 2. In SourceTree, open **Tools>>Options** from the menu bar and select the **Diff** tab. 
 3. Under **External Diff/Merge** change the **External Diff Tool** selection to **Custom**. 
 4. Enter the path to **_LVCompareWrapper.sh** in the **Diff Command** field. If using the default paths this would be: 
-       C:\Users\admin\_LVCompareWrapper.sh
+```
+C:\Users\admin\_LVCompareWrapper.sh
+```
 5. In the **Arguments** field enter the string below and click OK. 
-       $LOCAL $REMOTE
+```
+$LOCAL $REMOTE
+```
        
 ## Usage Instructions
 1. Open a repository in SourceTree and locate a commit containing a changed LabVIEW .vi file. 
